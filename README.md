@@ -2,7 +2,7 @@
 Simple batch file to monitor a web resource.
 
 ## What does it do?
-It repeatedly checks if a certain online resource is accessible. It assumes that any return code other than `0` from `curl` is an error, and logs it as such. The logfile is updates each time the error code changes. 
+It repeatedly checks if a certain online resource is accessible. It assumes that any return code other than `0` from `curl` is an error, and logs it as such. The logfile is updated each time the error code changes. 
 
 It requires `curl`, which ships with modern versions of Windows 10 by default. If you don't have it, you can get it from https://curl.haxx.se/windows/
 
